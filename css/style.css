@@ -1,14 +1,14 @@
 /*--------------------
 Color Scheme =======*/
 
-input[type='submit'], .nav li.current a, .speaker-contacts > .contact:hover, 
-.social-icons li a:hover, .form-notification, .table-price, .gotop:hover, 
+input[type='submit'], .nav li.current a, .speaker-contacts > .contact:hover,
+.social-icons li a:hover, .form-notification, .table-price, .gotop:hover,
 .preloader div, .owl-btn.prev:hover, .owl-btn.next:hover,
-.flex-control-paging li a.flex-active, .flex-control-paging li a.flex-active:hover, 
+.flex-control-paging li a.flex-active, .flex-control-paging li a.flex-active:hover,
 .owl-page.active span, .owl-page.active span:hover,
 .preloader, .preloader:before, .preloader:after, div.fancy-select div.trigger.open,
 div.fancy-select ul.options li.selected, div.fancy-select ul.options li.selected.hover, .btn-primary{
-	background-color: #00aeda; 
+	background-color: #00aeda;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
@@ -16,13 +16,13 @@ div.fancy-select ul.options li.selected, div.fancy-select ul.options li.selected
     border-color: #2e6da4;
 }
 
-a, .accordion-toggle span, .speaker-contacts > .contact, 
+a, .accordion-toggle span, .speaker-contacts > .contact,
 .table-features li.fa-check-circle, .owl-btn.prev,
 .owl-btn.next, div.fancy-select ul.options li.hover {
 	color: #00aeda; /* <- Paste here your prefered color */
 }
 
-.speaker:hover .speaker-photo, .speaker-contacts > .contact, 
+.speaker:hover .speaker-photo, .speaker-contacts > .contact,
 .social-icons li a:hover, .gotop:hover, .speaker-contacts > .contact:hover {
 	border-color: #00aeda; /* <- Paste here your prefered color */
 }
@@ -30,7 +30,7 @@ a, .accordion-toggle span, .speaker-contacts > .contact,
 /*--------------------
 Reset ==============*/
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,hr,th,td {
-	margin:0; 
+	margin:0;
 	padding:0;
 }
 
@@ -152,7 +152,7 @@ input[type='submit'], button {
 	transition: all 0.1s;
 	-moz-transition: all 0.1s;
 	-webkit-transition: all 0.1s;
-	-o-transition: all 0.1s; 
+	-o-transition: all 0.1s;
 }
 
 button:hover, input[type='submit']:hover {
@@ -185,26 +185,26 @@ input[type='submit']:active, button:active  {
 }
 
 .header-menu {
-	position: absolute;
-    width: 100%;
-    margin-top: 50px;
-    padding: 0 15px;
-    z-index: 55;
+	position: fixed;
+  width: 100%;
+  margin-top: 0px;
+  padding: 0 15px;
+  z-index: 55;
 }
 
 .header-menu.sticky {
 	position: fixed;
 	margin: 0;
-	-moz-animation: bounceInDown 0.5s;
+	/*-moz-animation: bounceInDown 0.5s;
 	-webkit-animation: bounceInDown 0.5s;
-	animation: bounceInDown 0.5s;
+	animation: bounceInDown 0.5s;*/
 }
 
-.header-menu.fixed {
+/*.header-menu.fixed {
 	-moz-animation: bounceIn 0.5s;
 	-webkit-animation: bounceIn 0.5s;
 	animation: bounceIn 0.5s;
-}
+}*/
 
 .header-menu > .box {
 	padding-top: 10px;
@@ -217,6 +217,14 @@ input[type='submit']:active, button:active  {
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
 	border-bottom: 1px solid #efefef;
+}
+
+.header-menu.sticky .navbar-header {
+	height: 50px;
+}
+.header-menu.sticky .navbar-nav {
+	padding-bottom:0;
+	padding-top:0;
 }
 
 .header-bg {
@@ -247,7 +255,7 @@ input[type='submit']:active, button:active  {
 }
 
 .content section#features:first-child {
-	padding: 40px 0;
+	padding: 30px 0;
 }
 
 .content section + section:before {
@@ -262,7 +270,7 @@ input[type='submit']:active, button:active  {
 	display: none;
 }
 
-.content section.separated { 
+.content section.separated {
 	border-top: 20px solid #efefef;
 	border-bottom: 20px solid #efefef;
 	margin: 0 -45px -3px;
@@ -352,7 +360,7 @@ Navigation =========*/
 	transition: all 0.1s;
 	-moz-transition: all 0.1s;
 	-webkit-transition: all 0.1s;
-	-o-transition: all 0.1s; 
+	-o-transition: all 0.1s;
 }
 
 .navbar-header {
@@ -606,6 +614,19 @@ Speaker's ==========*/
 .speaker-info {
 	position: relative;
 }
+
+
+.speaker-info .icon {
+	float: center;
+	width: 8rem;
+	color: #bbbac0;
+	font-size: 4.0rem;
+	line-height: 7.4rem;
+	text-align: center;
+	border-radius: 50%;
+	border: 3px solid #bbbac0;
+}
+
 
 .speaker-photo {
 	width: 100%;
@@ -907,7 +928,7 @@ Preloader ==========*/
 	left: 46%;
 	left: -webkit-calc(50% - 6px);
 	left: calc(50% - 6px);
-	
+
 	border-radius: 12px;
 	-webkit-transform-origin:  50% 50%;
 			transform-origin:  50% 50% ;
@@ -964,4 +985,50 @@ Copyrights =========*/
 	font-size: 1.2rem;
 	line-height: 1.4em;
 	color: #BBBAC0;
+}
+
+
+
+/*------------------
+Jackson===========*/
+#menu.header-menu.sticky{
+	top:0 !important;
+}
+
+#header .header-bg{
+	background:#F36F21;
+	height:590px;
+}
+
+#features .text-qualidade .icon.fa{
+	background:#99CA3C;
+	color:#fff;
+	border-color:#fff;
+}
+#features .text-qualidade .info h3{
+	color:#99CA3C;
+}
+#features .text-inovacao .icon.fa{
+	background:#DF2A78;
+	color:#fff;
+	border-color:#fff;
+}
+#features .text-inovacao .info h3{
+	color:#DF2A78;
+}
+#features .text-comprimisso .icon.fa{
+	background:#2C2F7C;
+	color:#fff;
+	border-color:#fff;
+}
+#features .text-compromisso .info h3{
+	color:#2C2F7C;
+}
+#features .text-resultados .icon.fa{
+	background:#F36F21;
+	color:#fff;
+	border-color:#fff;
+}
+#features .text-resultados .info h3{
+	color:#F36F21;
 }
