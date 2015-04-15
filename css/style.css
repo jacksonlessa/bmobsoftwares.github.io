@@ -991,8 +991,8 @@ Copyrights =========*/
 
 /*------------------
 Jackson===========*/
-#menu.header-menu.sticky{
-	top:0 !important;
+#menu.header-menu.sticky .container.box{
+	background:#99CA3C;
 }
 
 #header .header-bg{

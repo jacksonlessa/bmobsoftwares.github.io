@@ -6,7 +6,7 @@
             // Sticky Menu
             var menuSticky = function () {
                 var menu = document.querySelector('#menu'),
-                    origOffsetY = menu.offsetTop + 100;
+                    origOffsetY = menu.offsetTop + 500;
 
                 function scroll() {
                     if ($(window).scrollTop() >= origOffsetY) {
