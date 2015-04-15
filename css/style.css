@@ -271,8 +271,8 @@ input[type='submit']:active, button:active  {
 }
 
 .content section.separated {
-	border-top: 20px solid #efefef;
-	border-bottom: 20px solid #efefef;
+	border-top: 5px solid #efefef;
+	border-bottom: 5px solid #efefef;
 	margin: 0 -45px -3px;
 	padding: 50px 30px;
 }
@@ -992,43 +992,71 @@ Copyrights =========*/
 /*------------------
 Jackson===========*/
 #menu.header-menu.sticky .container.box{
-	background:#99CA3C;
+	/*background:#99CA3C;*/
 }
 
 #header .header-bg{
-	background:#F36F21;
+	background:#F36F21/*laranja*/;
 	height:590px;
 }
 
 #features .text-qualidade .icon.fa{
-	background:#99CA3C;
+	background:#99CA3C/*verde-claro*/;
 	color:#fff;
 	border-color:#fff;
 }
 #features .text-qualidade .info h3{
-	color:#99CA3C;
+	color:#99CA3C/*verde-claro*/;
 }
 #features .text-inovacao .icon.fa{
-	background:#DF2A78;
+	background:#DF2A78/*rosa*/;
 	color:#fff;
 	border-color:#fff;
 }
 #features .text-inovacao .info h3{
-	color:#DF2A78;
+	color:#DF2A78/*rosa*/;
 }
 #features .text-comprimisso .icon.fa{
-	background:#2C2F7C;
+	background:#2C2F7C/*azul*/;
 	color:#fff;
 	border-color:#fff;
 }
 #features .text-compromisso .info h3{
-	color:#2C2F7C;
+	color:#2C2F7C/*azul*/;
 }
 #features .text-resultados .icon.fa{
-	background:#F36F21;
+	background:#F36F21/*laranja*/;
 	color:#fff;
 	border-color:#fff;
 }
 #features .text-resultados .info h3{
-	color:#F36F21;
+	color:#F36F21/*laranja*/;
+}
+
+.speaker.servico-mobile .icon.fa{
+	background:#F36F21/*laranja*/;
+	color:#fff;
+	border-color:#fff;
+}
+
+.speaker.servico-mobile h3{
+	color:#F36F21/*laranja*/;
+}
+.speaker.servico-web .icon.fa{
+	background:#99CA3C/*verde-claro*/;
+	color:#fff;
+	border-color:#fff;
+}
+
+.speaker.servico-web h3{
+	color:#99CA3C/*verde-claro*/;
+}
+.speaker.servico-consultoria .icon.fa{
+	background:#2C2F7C/*azul*/;
+	color:#fff;
+	border-color:#fff;
+}
+
+.speaker.servico-consultoria h3{
+	color:#2C2F7C/*azul*/;
 }
