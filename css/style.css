@@ -8,7 +8,7 @@ input[type='submit'], .nav li.current a, .speaker-contacts > .contact:hover,
 .owl-page.active span, .owl-page.active span:hover,
 .preloader, .preloader:before, .preloader:after, div.fancy-select div.trigger.open,
 div.fancy-select ul.options li.selected, div.fancy-select ul.options li.selected.hover, .btn-primary{
-	background-color: #00aeda;
+	background-color: #2C2F7C;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
@@ -19,12 +19,12 @@ div.fancy-select ul.options li.selected, div.fancy-select ul.options li.selected
 a, .accordion-toggle span, .speaker-contacts > .contact,
 .table-features li.fa-check-circle, .owl-btn.prev,
 .owl-btn.next, div.fancy-select ul.options li.hover {
-	color: #00aeda; /* <- Paste here your prefered color */
+	color: #2C2F7C; /* <- Paste here your prefered color */
 }
 
 .speaker:hover .speaker-photo, .speaker-contacts > .contact,
 .social-icons li a:hover, .gotop:hover, .speaker-contacts > .contact:hover {
-	border-color: #00aeda; /* <- Paste here your prefered color */
+	border-color: #2C2F7C; /* <- Paste here your prefered color */
 }
 
 /*--------------------
